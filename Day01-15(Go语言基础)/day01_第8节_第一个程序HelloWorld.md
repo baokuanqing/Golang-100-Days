@@ -59,10 +59,10 @@ func main() {
 方式二：使用go build命令
 
 ​	step1：打开终端：在任意文件路径下，运行:
-​			go install hello 
+​			go build hello 
 
 ​		也可以进入项目(应用包)的路径，然后运行：
-​			go install 
+​			go build 
 
 注意，在编译生成go程序的时，go实际上会去两个地方找程序包：
 GOROOT下的src文件夹下，以及GOPATH下的src文件夹下。
